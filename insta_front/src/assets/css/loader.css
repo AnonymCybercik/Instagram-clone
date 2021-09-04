@@ -1,0 +1,36 @@
+.div {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.arr1{
+  --delay: 0.1s;
+}
+.arr2{
+  --delay: 0.2s;
+}
+.arr3{
+  --delay: 0.3s;
+}
+.arr4{
+  --delay: 0.4s;
+}
+
+@keyframes arrows {
+  0%,
+  100% {
+    color: black;
+    transform: translateY(0);
+  }
+  50% {
+    color: #3AB493;
+    transform: translateY(20px);
+  }
+}
+
+span {
+  --delay: 0s;
+  animation: arrows 1s var(--delay) infinite ease-in;
+}

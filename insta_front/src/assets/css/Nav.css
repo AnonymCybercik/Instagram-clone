@@ -1,0 +1,28 @@
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 75, 214)!important;
+}
+.nav-link{
+    color: white!important;
+
+}
+
+.fa-sign-out{
+    font-size: 30px;
+    color: #fff;
+    margin-left: -50px;
+} 
+
+.navbar-brand {
+    margin-left: 20px;
+    color: white!important;
+}
+
+.post-box{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+}
